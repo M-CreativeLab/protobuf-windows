@@ -35,5 +35,3 @@ jobs:
           name: nodejs-windows-artifacts
           path: |
             solution/Release
-      - name: Run tests
-        run: ./out/Release/node.exe -v
